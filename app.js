@@ -6,8 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'ping') {
-    msg.reply('Pong!');
+  if (msg.content === '貳號機你覺得呢?') {
+    msg.reply('我怎麼知道');
+    msg.reply('!羊你覺得呢?');
   }
 });
 
