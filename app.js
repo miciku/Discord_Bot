@@ -7,8 +7,8 @@ client.on('ready', () => {
 
 client.on('message', msg => {
   if (msg.content === '貳號機你覺得呢?') {
-    msg.content('我怎麼知道');
-    msg.content('!羊你覺得呢?');
+    msg.reply('我怎麼知道');
+    msg.channel.send('!羊你覺得呢?');
   }
 });
 
